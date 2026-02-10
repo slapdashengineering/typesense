@@ -63,8 +63,8 @@ importers:
         specifier: ^3.1.7
         version: 3.1.7
       typesense:
-        specifier: 2.0.0-15
-        version: 2.0.0-15(@babel/runtime@7.26.0)
+        specifier: 2.0.0
+        version: 2.0.0(@babel/runtime@7.26.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.17.0
@@ -2105,8 +2105,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typesense@2.0.0-15:
-    resolution: {integrity: sha512-eeCMKXkgHMgehhG/ogp77kAYMPHriTzf73CoRh8xKJ2JUNvYNp9EKMyclvcKW93licrRtSP2Yx07hVPC8u0APA==}
+  typesense@2.0.0:
+    resolution: {integrity: sha512-rt/H467w3Q6Unoe/UXpiLGqwtjfQxzaBqCnGy7LE0PMY9M3VlxtCawgEwTHq2v93d6+WRh6qprDDY7Jc/r68Qw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@babel/runtime': ^7.23.2
@@ -4182,7 +4182,7 @@ snapshots:
 
   typescript@5.7.2: {}
 
-  typesense@2.0.0-15(@babel/runtime@7.26.0):
+  typesense@2.0.0(@babel/runtime@7.26.0):
     dependencies:
       '@babel/runtime': 7.26.0
       axios: 1.7.9
